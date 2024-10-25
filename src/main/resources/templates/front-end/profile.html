@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Image Rating Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">LOGO-IMG</a>
+            <ul>
+                <li><a href="upload.html">upload image</a></li>
+                <li><a href="profile.html">profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>username <button class="edit-button">edit</button></h1>
+        <h2>My Gallery:</h2>
+        <div class="image-grid">
+            <article class="image-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gallery image">
+                <div class="image-info">
+                    <span class="date">dd/mm/yyyy</span>
+                </div>
+                <div class="ratings">
+                    <span class="ai-rating">🤖 6/10</span>
+                    <span class="user-rating">👤 10/10</span>
+                </div>
+            </article>
+            <!-- Repeat the article element for more images -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Image Rating Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>

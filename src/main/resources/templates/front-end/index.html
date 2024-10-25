@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Image Rating Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">LOGO-IMG</a>
+            <ul>
+                <li><a href="upload.html">upload image</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Recent Posts:</h1>
+        <div class="image-grid">
+            <article class="image-card">
+                <img src="https://via.placeholder.com/300x200" alt="Uploaded image">
+                <div class="image-info">
+                    <span class="date">dd/mm/yyyy</span>
+                    <span class="username">username</span>
+                </div>
+                <div class="ratings">
+                    <span class="ai-rating">🤖 6/10</span>
+                    <span class="user-rating">👤 10/10</span>
+                </div>
+            </article>
+            <!-- Repeat the article element for more images -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Image Rating Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
